@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" ng-app="folio">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="web dev and interactive design portfolio of adam kell | NY, NY">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>adam kell &and; dev portfolio</title>
+
+  <!-- build:css({.tmp,app}) styles/app.css -->
+  <link rel="stylesheet" href="styles/app.css"/>
+  <!-- endbuild -->
+
+</head>
+
+<body>
+
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+  <![endif]-->
+
+  <div id="container">
+
+    <nav>
+      <img src="img/logo.png" alt="Adam Kell" title="Adam Kell"/>
+      <ul>
+        <li><a href="#/colophon/">COLOPHON</a></li>
+        <li class="superf">&mdash; </li>
+        <li><a href="http://linkedin.com/pub/adam-kell/5/96a/588/">LINKEDBIN</a></li>
+        <li><a href="http://facebook.com/adam.kell/">BOOKFACE</a></li>
+      </ul>
+    </nav>
+
+
+    <header></header>
+
+    <div ng-view ng-controller="MainCtrl">
+      <!-- home for partials -->
+    </div>
+
+
+    <div id="project_list" 
+      ng-controller="ProjectListCtrl" 
+      ng-class="{disabled: showingDetail, shown: loaded}" 
+      class="template">
+
+      <div ng-repeat="proj in projects.items" class="list-item">
+        <a href="#/project/{{proj.id}}">
+          <h3 ng-bind="proj.title"></h3>
+          <img ng-src="img/{{proj.images.feature.src}}" alt="{{proj.title}}" />
+        </a>
+        <p class="proj-caption">
+          <span>CLIENT</span> {{proj.client}}
+          <span>TECH</span> {{proj.tech}}
+        </p>
+      </div>
+
+    </div>
+
+  </div><!-- #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <!--<script src="bower_components/angular/angular.js"></script>-->
+  
+  <!-- build:js scripts/modules.js -->
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+  <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+  <script src="lib/jquery.freetile.min.js"></script>
+  <!-- endbuild -->
+
+
+  <!-- build:js({.tmp,app}) scripts/scripts.js -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/services.js"></script>
+  <script src="scripts/controllers.js"></script>
+  <!-- endbuild -->
+
+
+</body>
+</html>

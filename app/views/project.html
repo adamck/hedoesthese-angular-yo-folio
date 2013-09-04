@@ -1,0 +1,27 @@
+
+<div class="overlay-bg" ng-class="{hiding: overlayFadeOut}" ng-click="hideOverlay()"></div>
+
+<div class="overlay-content project-detail" ng-class="{hiding: overlayFadeOut}">
+	
+	<div class="overlay-nav proj-nav">
+		<a href ng-click="prevProj()">prev</a>&nbsp;
+		<a href ng-click="nextProj()">next</a>&nbsp;
+		<a href ng-click="hideOverlay()">x</a>
+	</div>
+
+	<div class="content">
+		<h2>{{project.title}}</h2>
+		<h3 ng-bind-html="project.desc"></h3><!-- bind-html instead of mustache templates -->
+		<div ng-repeat="image in project.images.detail" class="proj-img">
+			<img ng-src="img/{{image.src}}" />
+			<div>{{image.caption}}</div>
+		</div>
+	</div>
+	
+	<div class="overlay-nav proj-nav">
+		<a href ng-click="prevProj()">prev</a>&nbsp;
+		<a href ng-click="nextProj()">next</a>&nbsp;
+		<a href ng-click="hideOverlay()">x</a>
+	</div>
+
+</div>

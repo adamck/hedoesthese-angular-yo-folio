@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: #fdebfc;
+  font-family: Helvetica, Tahoma, Arial, sans-serif;
+  font-weight: bold;
+}
+#container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+nav {
+  position: fixed;
+  top: 66px;
+  text-align: right;
+  z-index: 1;
+}
+nav ul {
+  font-size: 12px;
+  margin-top: 24px;
+}
+nav ul li {
+  margin-top: 7px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+header {
+  position: fixed;
+  top: 0px;
+  width: 400px;
+  height: 92px;
+  background-color: black;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 20%;
+  height: 12px;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#project_list {
+  margin: 120px 0 0;
+  position: relative;
+  clear: both;
+}
+#project_list div.list-item {
+  float: left;
+  width: 400px;
+  margin: 0 80px 40px 0;
+}
+#project_list div.list-item h3 {
+  text-shadow: 0.1em 0.1em 0.1em #d4caca;
+}
+#project_list div.list-item a:hover img {
+  border-width: 0 14px 0 0;
+  border-color: black;
+  border-style: solid;
+}
+#project_list div.list-item .proj-caption {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#project_list div.list-item .proj-caption span {
+  color: #d4caca;
+}
+#project_list.disabled {
+  position: fixed;
+  z-index: -10;
+}
+.overlay-bg {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 2;
+}
+.overlay-content {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  max-width: 1100px;
+  z-index: 3;
+  color: white;
+  font-size: 18px;
+  line-height: 1.2em;
+  padding: 0 30px 30px 30px;
+}
+.overlay-content a {
+  color: white;
+}
+.overlay-content div.content {
+  padding-top: 80px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 80px;
+}
+.overlay-content div.content h2 {
+  font-weight: bold;
+}
+.overlay-content div.overlay-nav {
+  width: 100%;
+  text-align: right;
+  margin: 30px 0 0;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.overlay-content div.overlay-nav a:hover {
+  text-decoration: underline;
+}
+/* partial */
+.project-detail a {
+  font-style: italic;
+}
+.project-detail a:hover {
+  text-decoration: underline;
+}
+.project-detail div.proj-img {
+  margin: 20px 0 20px;
+  font-size: 14px;
+}
+.project-detail div.proj-img img {
+  width: 100%;
+}
+/* partial */
+.about {
+  font-weight: normal;
+  font-size: 28px;
+}
+.about div.content a {
+  text-decoration: underline;
+}
+.about div.content h3 {
+  margin-bottom: 40px;
+}
+/* misc */
+.template {
+  display: none;
+}
+.shown {
+  display: block !important;
+}
+.hiding {
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+@media all and (max-width: 320px) {
+  #container {
+    width: 100%;
+  }
+  header {
+    height: 10px;
+  }
+  nav {
+    position: relative;
+    text-align: left;
+    margin: 0;
+  }
+  nav ul {
+    margin-top: 6px;
+    margin-bottom: 8px;
+  }
+  nav ul li {
+    margin: 14px 0;
+  }
+  nav ul li a {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  nav ul li.superf {
+    display: none;
+  }
+  #project_list div.list-item {
+    margin: 0 80px 80px 0;
+  }
+  #project_list a:hover img {
+    border: none;
+  }
+}
+/* media query positioning for header width and nav pos */
+@media all and (min-width: 321px) {
+  header {
+    width: 400px;
+  }
+  nav {
+    left: 520px;
+  }
+}
+@media all and (min-width: 1060px) {
+  header {
+    width: 880px;
+  }
+  nav {
+    left: 1020px;
+  }
+}
+@media all and (min-width: 1586px) {
+  header {
+    width: 1360px;
+  }
+  nav {
+    left: 1500px;
+  }
+}
