@@ -1,6 +1,11 @@
 /*globals $, _*/
-
 'use strict';
+
+
+// TODO:
+// - Break out controllers into files
+// - add constants to new Constants class or config object
+
 
 function initProjectTiling() {
 	$('#project_list').freetile({
@@ -10,6 +15,7 @@ function initProjectTiling() {
 		customEvents: 'refreshList'
 	});
 }
+
 
 /* Controllers */
 var MainCtrl = function( $scope, $location, $timeout, $http, DataService) {
