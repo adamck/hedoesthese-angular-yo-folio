@@ -45,9 +45,9 @@
     </div>
 
 
-    <div id="project_list" 
-      ng-controller="ProjectListCtrl" 
-      ng-class="{disabled: showingDetail, shown: loaded}" 
+    <div id="project_list"
+      ng-controller="ProjectListCtrl"
+      ng-class="{disabled: showingDetail, shown: loaded}"
       class="template">
 
       <div ng-repeat="proj in projects.items" class="list-item">
@@ -60,16 +60,14 @@
           <span>TECH</span> {{proj.tech}}
         </p>
       </div>
-
     </div>
 
-  </div><!-- #container -->
+  </div>
 
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-  <!--<script src="bower_components/angular/angular.js"></script>-->
-  
+
   <!-- build:js scripts/modules.js -->
   <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
