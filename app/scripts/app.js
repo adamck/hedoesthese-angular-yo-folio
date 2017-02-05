@@ -2,19 +2,22 @@
 
 'use strict';
 
-var ROUTE_PROJECT = 'project';
-var ROUTE_ABOUT   = 'colophon';
+var Constants = {
+  ROUTE_PROJECT: 'project',
+  ROUTE_ABOUT: 'colophon',
+  DATA_URL: 'data/folio.json'
+};
 
 angular
 	.module('folio', ['folio.services', 'ngSanitize'])
 	.config(['$routeProvider', function($routeProvider) {
-			$routeProvider.when('/'+ ROUTE_PROJECT +'/:id',
+			$routeProvider.when('/'+ Constants.ROUTE_PROJECT +'/:id',
 				{
 					templateUrl: 'views/project.html',
 					controller: ProjectCtrl
 				}
 			);
-			$routeProvider.when('/'+ ROUTE_ABOUT,
+			$routeProvider.when('/'+ Constants.ROUTE_ABOUT,
 				{
 					templateUrl: 'views/about.html',
 					controller: AboutCtrl

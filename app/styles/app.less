@@ -6,7 +6,6 @@
 @mar-l: 60px;
 
 
-
 body {
   background-color: #fdebfc;
   font-family: Helvetica, Tahoma, Arial, sans-serif;
@@ -17,22 +16,20 @@ body {
 #container {
   width: @wfull - 10%;
   height: 100%;
-  margin: 0 auto;   //centered  
+  margin: 0 auto;   //centered
 }
-
 
 
 nav {
   position: fixed;
   top: 66px;  //x-pos is done in media queries
-
   text-align: right;
-
   z-index: 1;
 
   ul {
     font-size: 12px;
     margin-top: 24px;
+
     li {
       margin-top: 7px;
     }
@@ -53,28 +50,22 @@ header {
 }
 
 
-
 footer {
   position: fixed;
   bottom: 0px;
-
   width: @wfull - 80px;
   height: 12px;
   background-color: black;
-  
-  //z-index: 5;
 }
 
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
   color: black;
 }
 
 
-
 #project_list {
-
   margin: 120px 0 0;
   position: relative;
   clear: both;
@@ -86,21 +77,21 @@ a {
 
     h3 {
       text-shadow: 0.1em 0.1em 0.1em #d4caca;
-      //text-transform: uppercase;
     }
 
     a:hover {
      img {
-        border-width: 0 14px 0 0;
-        border-color: black;
-        border-style: solid;
-     }
+      border-width: 0 14px 0 0;
+      border-color: black;
+      border-style: solid;
     }
-    
-    .proj-caption {
-      font-size: 12px;
-      text-transform: uppercase;
-      span {
+  }
+
+  .proj-caption {
+    font-size: 12px;
+    text-transform: uppercase;
+
+    span {
         color: #d4caca; //tag labels. eg: client and tech
       }
     }
@@ -119,21 +110,18 @@ a {
   top: 0;
   width: 100%;
   height: 100%;
-  
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.95);
-
   z-index: 2;
 }
+
 
 .overlay-content {
   position: absolute;
   top: 0;
   width: 80%;
   max-width: 1100px;
-
   z-index: 3;
-
   color: white;
   font-size: 18px;
   line-height: 1.2em;
@@ -159,7 +147,6 @@ a {
     width: 100%;
     text-align: right;
     margin: 30px 0 0;
-
     font-style: italic;
     font-weight: normal;
     text-transform: uppercase;
@@ -174,20 +161,22 @@ a {
 
 /* partial */
 .project-detail {
-    a {
-      font-style: italic;
-      &:hover {
-        text-decoration: underline;
-      }
+  a {
+    font-style: italic;
+
+    &:hover {
+      text-decoration: underline;
     }
-    div.proj-img {
-      margin: 20px 0 20px;
-      font-size: 14px;
-      img {
-        width: 100%;
-      }
+  }
+
+  div.proj-img {
+    margin: 20px 0 20px;
+    font-size: 14px;
+
+    img {
+      width: 100%;
     }
-  
+  }
 }
 
 
@@ -207,7 +196,6 @@ a {
 }
 
 
-
 /* misc */
 .template {
   display: none;
@@ -224,14 +212,9 @@ a {
 }
 
 
-
-
-
-
 @media all and (max-width: 320px) {
   @import "_iphone";
 }
-
 
 /* media query positioning for header width and nav pos */
 @media all and (min-width: 321px) {
@@ -242,6 +225,7 @@ a {
     left: 520px;
   }
 }
+
 @media all and (min-width: 1060px) {
   header {
     width: 880px;
@@ -250,10 +234,11 @@ a {
     left: 1020px;
   }
 }
+
 @media all and (min-width: 1586px) {
   header {
     width: 1360px;
-  } 
+  }
   nav {
     left: 1500px;
   }
