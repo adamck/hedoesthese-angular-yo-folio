@@ -1,265 +1,427 @@
 {
-	"items": [
-		{
-			"title": "NIKE FREE RUN",
-			"desc": "An editorial page to show off Nike's new line of running kicks. Developed at R/GA with a small team, we used Yeoman and EaselJS and built in localization for 52 locales.<br><br><a href='http://www.nike.com/us/en_us/c/nike-free' target='_blank'>GOTO</a>",
-			"id": "nike-free",
-			"tech": "HTML/JS",
-			"client": "R/GA",
-			"images": {
-				"feature" : {
-					"src" : "feature-nikefree.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/nikefree1.jpg"
-					},
-					{
-						"src": "projs/nikefree2.jpg"
-					},
-					{
-						"src": "projs/nikefree3.jpg"
-					}
-				]
-			}
-		},
-		{
-			"title": "ADIDAS PREDATOR MASTHEAD MINI-SITE",
-			"desc": "A mini-site in HTML that feels like it was done in Flash — that was the objective for this promotional piece launched just before the new Predator soccer boot was unveiled. The client wanted a brief intro animation, smoothly animated interactive elements, and video-like transitions, and for it all to work as well as possible for users all over the world, on machines from a decade-old desktop to a shiny new iPad.<br><br>jQuery and Modernizr were used throughout; the jQuery plugin Transit was used for CSS3 animations; i18n was done with json dictionaries.",
-			"id": "adidas-predator",
-			"tech": "HTML/JS/PHP",
-			"client": "SID LEE AMSTERDAM",
-			"images": {
-				"feature" : {
-					"src" : "feature-adidaspred.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/adipred0.jpg"
-					},
-					{
-						"src": "projs/adipred1.jpg"
-					},
-					{
-						"src": "projs/adipred2.jpg"
-					},
-					{
-						"src": "projs/adipred3.jpg"
-					}
-				]
-			}
-		},
-		{
-			"title": "NIKEiD WEB APPLICATION",
-			"desc": "Another complete reskinning of Nike's famous iD web app. This time the flash app was redone to work within Nike.com's new fluid layout. The customization process was simplified and contextual clues were added to help users get completed products into their carts faster.",
-			"id": "nikeid-reset",
-			"tech": "FLASH",
-			"client": "R/GA",
-			"images": {
-				"feature" : {
-					"src" : "feature-nikeidreset.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/nikeidreset0.jpg",
-						"caption": ""
-					},
-					{
-						"src": "projs/nikeidreset1.jpg",
-						"caption": ""
-					},
-					{
-						"src": "projs/nikeidreset2.jpg",
-						"caption": ""
-					},
-					{
-						"src": "projs/nikeidreset3.jpg",
-						"caption": "iD designers can export creations as background and profile images."
-					},
-					{
-						"src": "projs/nikeidreset4.jpg",
-						"caption": "The iD Design Gallery provides inspiration and a place users can show off their own designs."
-					}
-				]
-			}
-		},
-		{
-			"title": "CHALET MAGAZINE PREVIEW SITE",
-			"desc": "Developed a simple preview site for Chalet Magazine to cement their online presence and showcase photography that will appear in upcoming issues. The appearance order of background images is a pseudo-random combination involving a subset of flagged images that are each given a chance to be first to load.",
-			"id": "chalet-preview",
-			"tech": "HTML/JS",
-			"client": "THE AM",
-			"images": {
-				"feature" : {
-					"src" : "feature-chalet-preview.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/chaletpre0.jpg",
-						"caption": ""
-					},
-					{
-						"src": "projs/chaletpre1.jpg",
-						"caption": ""
-					}
-				]
-			}
-		},
-		{
-			"title": "BEATS BY DR. DRE POPUP TABLET",
-			"desc": "An Android app that runs on HTC tablets for the headphone company's first brick-and-mortar store located in SoHo. It allows users to choose music and get more information while trying on the high-end headphones. The app was designed, coded, tested and deployed over just two weeks immediately preceding the store's pre-holiday grand opening.",
-			"id": "beats-by-dre",
-			"tech": "ANDROID/HTML/JS",
-			"client": "MKTG",
-			"images": {
-				"feature" : {
-					"src" : "feature-beats.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/beats0.jpg",
-						"caption": ""
-					},
-					{
-						"src": "projs/beats1.jpg",
-						"caption": ""
-					},
-					{
-						"src": "projs/beats3.jpg",
-						"caption": ""
-					}
-				]
-			}
-		},
-		{
-			"title": "NIKE BASKETBALL TWITTER VISUALIZATION",
-			"desc": "As part of Nike's Basketball Never Stops campaign, an historic collegiate game, dubbed the Carrier Classic, took place on November 11, 2011 aboard the USS Carl Vinson between MSU and UNC. The campaign, a response to the NBA season lockout, encouraged amateur athletes to use the hashtag #BasetballNeverStops when tweeting about their love for and dedication to the game. <br><br>For the Carrier Classic, Nike wanted to give student fans at each school a place where game-time messages could be seen in real-time. So on game day at each campus, emblazoned across 60 inch displays, fans could read tweets about the game, customized for each school. <br><br>Included in the Flash app is an implementation of the Tweetr API and a custom profanity filter.",
-			"id": "carrier-classic",
-			"tech": "FLASH/PHP/TWITTER",
-			"client": "MKTG",
-			"images": {
-				"feature" : {
-					"src" : "feature-carrier-classic.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/bball0.jpg"
-					},
-					{
-						"src": "projs/bball1.jpg"
-					},
-					{
-						"src": "projs/bball2.jpg"
-					}
-				]
-			}
-		},
-		{
-			"title": "JUST ONE EYE",
-			"desc": "For the online presence of the LA-based art and fashion showroom, Just One Eye, I was contracted to write a significant portion of the markup and jQuery script that went into the final e-commerce site. Work included the parallax  scrolling splash page, the primary and secondary popup navigation, product detail page, and large graphical popups.",
-			"id": "just-one-eye",
-			"tech": "HTML/JS",
-			"client": "GELOFACTORY",
-			"images": {
-				"feature" : {
-					"src" : "feature-one-eye.jpg"
-				},
-				"detail" : [
-					
-				]
-			}
-		},
-		{
-			"title": "NIKEiD / NIKE STORE",
-			"desc": "A thorough frontend recoding of the NIKEiD Flash application, one of the most profitable Nike digital properties. With a group of senior interaction and visual designers and coders, we gave the site a completely new look and greatly improved the user experience. New features were added to help customers manage and share their shoe and apparel designs.",
-			"id": "nike-id-2",
-			"tech": "FLASH",
-			"client": "R/GA",
-			"images": {
-				"feature" : {
-					"src" : "feature-nike-id-2.jpg"
-				},
-				"detail" : [
-				]
-			}
-		},
-		{
-			"title": "CONVERSE SITE",
-			"desc": "Led a small team of Flash developers tasked with giving Converse.com a new face. Beginning where another agency left off, we first completed backend integration work which included a smart product filtering system. The e-commerce site also sports social integration, lifestyle content, and full-screen features. In addition, I was responsible for updating and extending the Design Your Own application, a major features of the site with which users can design a pair of Cons from scratch.<br><br>A week after launching, Converse.com reported its all-time 2nd best sales day.",
-			"id": "converse",
-			"tech": "FLASH",
-			"client": "R/GA",
-			"images": {
-				"feature" : {
-					"src" : "feature-converse.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/converse0.jpg"
-					},
-					{
-						"src": "projs/converse1.jpg"
-					},
-					{
-						"src": "projs/converse2.jpg"
-					},
-					{
-						"src": "projs/converse3.jpg"
-					}
-				]
-			}
-		},
-		{
-			"title": "WALMART FAMILY MOMENTS MEDIA PLAYERS",
-			"desc": "Simple, smart, and flexible video and audio players for the Family Moments area on Walmart.com, which experiences huge amounts of traffic by way of cross-promotions on the ABC Family channel. The video player performs bandwidth detection and is made to work in various modes and sizes while the audio player can be initialized with a playlist or in a single track mode. The video player had previously contained an integrated media library that has recently been removed for business reasons.",
-			"id": "walmart-media-players",
-			"tech": "FLASH",
-			"client": "R/GA",
-			"images": {
-				"feature" : {
-					"src" : "feature-walmart.jpg"
-				},
-				"detail" : [
-				]
-			}
-		},
-		{
-			"title": "HIGH LINE DESIGN",
-			"desc": "Using existing printed materials as a style guide, I designed and developed this map module for the first two phases of New York's newest elevated park. The client had a general idea what they wanted but the look, feel, and technical solution was completely my responsibility.",
-			"id": "high-line",
-			"tech": "FLASH",
-			"client": "GELOFACTORY",
-			"images": {
-				"feature" : {
-					"src" : "feature-highline.jpg"
-				},
-				"detail" : [
-					{
-						"src": "projs/highline0.jpg"
-					},
-					{
-						"src": "projs/highline1.jpg"
-					},
-					{
-						"src": "projs/highline2.jpg"
-					}
-				]
-			}
-		},
-		{
-			"title": "DOWNTOWN SYNC",
-			"desc": "For Downtown Records, this music licensing project was my highest priority for over a year while working at Gelo Factory. I was involved in each phase of the project, including strategy and feature conception, visual and interaction design, database engineering, and Flex and jQuery programming.",
-			"id": "downtown-sync",
-			"tech": "FLEX/PHP/MYSQL",
-			"client": "GELOFACTORY",
-			"images": {
-				"feature" : {
-					"src" : "feature-downtown.jpg"
-				},
-				"detail" : [
-				]
-			}
-		}
-	]
+  "items": [
+    {
+      "title": "THE STANDARD HOTELS",
+      "desc": "Came on as a contractor to finish the final 20% of the new site for The Standard Hotels.<br><br><a href='http://www.standardhotels.com/' target='_blank'>GOTO</a>",
+      "id": "standard",
+      "tech": "React/Rails",
+      "client": "Alldayeveryday",
+      "images": {
+        "feature": {
+          "src": "feature-standard.jpg"
+        },
+        "detail": [
+          {
+            "src": "projs/standard/family-portraits.jpg"
+          },
+          {
+            "src": "projs/standard/curling.jpg"
+          },
+          {
+            "src": "projs/standard/mobile-high-line.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "IPPOLITA CHARM CREATOR",
+      "desc": "<a href='http://www.ippolita.com/charm-creator' target='_blank'>GOTO</a>",
+      "id": "ippo",
+      "tech": "Backbone/Canvas/Magento",
+      "client": "Sweden Unlimited",
+      "images": {
+        "feature": {
+          "src": "feature-ippo.jpg"
+        },
+        "detail": [
+          {
+            "src": "projs/ippo/0.jpg"
+          },
+          {
+            "src": "projs/ippo/1.jpg"
+          },
+          {
+            "src": "projs/ippo/2.jpg"
+          },
+          {
+            "src": "projs/ippo/3.jpg"
+          },
+          {
+            "src": "projs/ippo/4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "URBAN OUTFITTERS TUMBLR",
+      "desc": "",
+      "id": "uotumblr",
+      "tech": "Backbone/API Integration",
+      "client": "Sweden Unlimited",
+      "images": {
+        "feature": {
+          "src": "feature-uotumblr.jpg"
+        },
+        "detail": [
+          {
+            "src": "projs/uotumblr/0.jpg"
+          },
+          {
+            "src": "projs/uotumblr/1.jpg"
+          },
+          {
+            "src": "projs/uotumblr/2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "LOU & GREY",
+      "desc": "To announce the label's launch and collaborations with artists Langley Fox Hemingway and Mark Borthwick, Lou &amp; Grey needed a beautiful responsive one-pager. The site uses Skrollr for parallax and Backbone, Sass, and Yeoman to keep things tight and organized.<br><br><a href='http://louandgrey.com' target='_blank'>GOTO</a>",
+      "id": "lougrey",
+      "tech": "Backbone/Skrollr",
+      "client": "Sweden Unlimited",
+      "images": {
+        "feature": {
+          "src": "feature-lougrey.jpg"
+        },
+        "detail": [
+          {
+            "src": "projs/lougrey/0.jpg"
+          },
+          {
+            "src": "projs/lougrey/1.jpg"
+          },
+          {
+            "src": "projs/lougrey/2.jpg"
+          },
+          {
+            "src": "projs/lougrey/3.jpg"
+          },
+          {
+            "src": "projs/lougrey/4.jpg"
+          },
+          {
+            "src": "projs/lougrey/5.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "CREATETHE GROUP",
+      "desc": "Front-end development and some interaction design for the luxury e-commerce pioneers at CreateThe Group. Along with a junior back-end dev, I built out CTG's new responsive homepage showcase. The site's built on top of their proprietary CMS, all in ASP.NET MVC 4.<br><br><a href='http://createthe.com' target='_blank'>GOTO</a>",
+      "id": "createthe",
+      "tech": "HTML/JS/C#",
+      "client": "CreateThe Group",
+      "images": {
+        "feature": {
+          "src": "feature-createthe.jpg"
+        },
+        "detail": [
+          {
+            "src": "projs/createthe/0.jpg"
+          },
+          {
+            "src": "projs/createthe/1.jpg"
+          },
+          {
+            "src": "projs/createthe/2.jpg"
+          },
+          {
+            "src": "projs/createthe/3.jpg"
+          },
+          {
+            "src": "projs/createthe/4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "NIKE PRODUCT EDITORIAL",
+      "desc": "Working with HUGE/King Coyle I helped develop a series of modular product editorial pages, designed to serve as a model for the rest of Nike's 2013 product releases. The team used Angular to speed up development ahead of a Mark Parker presentation in which he showed off the new page styles.<br><br><a href='http://www.nike.com/hyperfeel' target='_blank'>GOTO HYPERFEEL</a>",
+      "id": "nike-app13",
+      "tech": "HTML/JS",
+      "client": "R/GA",
+      "images": {
+        "feature" : {
+          "src" : "feature-nike-app13.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/nike-app13-0.jpg"
+          },
+          {
+            "src": "projs/nike-app13-1.jpg"
+          },
+          {
+            "src": "projs/nike-app13-2.jpg"
+          },
+          {
+            "src": "projs/nike-app13-3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "NIKE FREE RUN",
+      "desc": "An editorial page to show off Nike's new line of running kicks. Developed at R/GA with a small team, we used Yeoman and EaselJS and built in localization for 52 locales.<br><br><a href='http://www.nike.com/us/en_us/c/nike-free' target='_blank'>GOTO</a>",
+      "id": "nike-free",
+      "tech": "HTML/JS",
+      "client": "R/GA",
+      "images": {
+        "feature" : {
+          "src" : "feature-nikefree.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/nikefree1.jpg"
+          },
+          {
+            "src": "projs/nikefree2.jpg"
+          },
+          {
+            "src": "projs/nikefree3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "ADIDAS PREDATOR MASTHEAD MINI-SITE",
+      "desc": "A mini-site in HTML that feels like it was done in Flash — that was the objective for this promotional piece launched just before the new Predator soccer boot was unveiled. The client wanted a brief intro animation, smoothly animated interactive elements, and video-like transitions, and for it all to work as well as possible for users all over the world, on machines from a decade-old desktop to a shiny new iPad.<br><br>jQuery and Modernizr were used throughout; the jQuery plugin Transit was used for CSS3 animations; i18n was done with json dictionaries.",
+      "id": "adidas-predator",
+      "tech": "HTML/JS/PHP",
+      "client": "SID LEE AMSTERDAM",
+      "images": {
+        "feature" : {
+          "src" : "feature-adidaspred.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/adipred0.jpg"
+          },
+          {
+            "src": "projs/adipred1.jpg"
+          },
+          {
+            "src": "projs/adipred2.jpg"
+          },
+          {
+            "src": "projs/adipred3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "NIKEiD WEB APPLICATION",
+      "desc": "Another complete reskinning of Nike's famous iD web app. This time the flash app was redone to work within Nike.com's new fluid layout. The customization process was simplified and contextual clues were added to help users get completed products into their carts faster.",
+      "id": "nikeid-reset",
+      "tech": "FLASH",
+      "client": "R/GA",
+      "images": {
+        "feature" : {
+          "src" : "feature-nikeidreset.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/nikeidreset0.jpg",
+            "caption": ""
+          },
+          {
+            "src": "projs/nikeidreset1.jpg",
+            "caption": ""
+          },
+          {
+            "src": "projs/nikeidreset2.jpg",
+            "caption": ""
+          },
+          {
+            "src": "projs/nikeidreset3.jpg",
+            "caption": "iD designers can export creations as background and profile images."
+          },
+          {
+            "src": "projs/nikeidreset4.jpg",
+            "caption": "The iD Design Gallery provides inspiration and a place users can show off their own designs."
+          }
+        ]
+      }
+    },
+    {
+      "title": "CHALET MAGAZINE PREVIEW SITE",
+      "desc": "Developed a simple preview site for Chalet Magazine to cement their online presence and showcase photography that will appear in upcoming issues. The appearance order of background images is a pseudo-random combination involving a subset of flagged images that are each given a chance to be first to load.",
+      "id": "chalet-preview",
+      "tech": "HTML/JS",
+      "client": "THE AM",
+      "images": {
+        "feature" : {
+          "src" : "feature-chalet-preview.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/chaletpre0.jpg",
+            "caption": ""
+          },
+          {
+            "src": "projs/chaletpre1.jpg",
+            "caption": ""
+          }
+        ]
+      }
+    },
+    {
+      "title": "BEATS BY DR. DRE POPUP TABLET",
+      "desc": "An Android app that runs on HTC tablets for the headphone company's first brick-and-mortar store located in SoHo. It allows users to choose music and get more information while trying on the high-end headphones. The app was designed, coded, tested and deployed over just two weeks immediately preceding the store's pre-holiday grand opening.",
+      "id": "beats-by-dre",
+      "tech": "ANDROID/HTML/JS",
+      "client": "MKTG",
+      "images": {
+        "feature" : {
+          "src" : "feature-beats.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/beats0.jpg",
+            "caption": ""
+          },
+          {
+            "src": "projs/beats1.jpg",
+            "caption": ""
+          },
+          {
+            "src": "projs/beats3.jpg",
+            "caption": ""
+          }
+        ]
+      }
+    },
+    {
+      "title": "NIKE BASKETBALL TWITTER VISUALIZATION",
+      "desc": "As part of Nike's Basketball Never Stops campaign, an historic collegiate game, dubbed the Carrier Classic, took place on November 11, 2011 aboard the USS Carl Vinson between MSU and UNC. The campaign, a response to the NBA season lockout, encouraged amateur athletes to use the hashtag #BasetballNeverStops when tweeting about their love for and dedication to the game. <br><br>For the Carrier Classic, Nike wanted to give student fans at each school a place where game-time messages could be seen in real-time. So on game day at each campus, emblazoned across 60 inch displays, fans could read tweets about the game, customized for each school. <br><br>Included in the Flash app is an implementation of the Tweetr API and a custom profanity filter.",
+      "id": "carrier-classic",
+      "tech": "FLASH/PHP/TWITTER",
+      "client": "MKTG",
+      "images": {
+        "feature" : {
+          "src" : "feature-carrier-classic.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/bball0.jpg"
+          },
+          {
+            "src": "projs/bball1.jpg"
+          },
+          {
+            "src": "projs/bball2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "JUST ONE EYE",
+      "desc": "For the online presence of the LA-based art and fashion showroom, Just One Eye, I was contracted to write a significant portion of the markup and jQuery script that went into the final e-commerce site. Work included the parallax  scrolling splash page, the primary and secondary popup navigation, product detail page, and large graphical popups.",
+      "id": "just-one-eye",
+      "tech": "HTML/JS",
+      "client": "GELOFACTORY",
+      "images": {
+        "feature" : {
+          "src" : "feature-one-eye.jpg"
+        },
+        "detail" : [
+
+        ]
+      }
+    },
+    {
+      "title": "NIKEiD / NIKE STORE",
+      "desc": "A thorough frontend recoding of the NIKEiD Flash application, one of the most profitable Nike digital properties. With a group of senior interaction and visual designers and coders, we gave the site a completely new look and greatly improved the user experience. New features were added to help customers manage and share their shoe and apparel designs.",
+      "id": "nike-id-2",
+      "tech": "FLASH",
+      "client": "R/GA",
+      "images": {
+        "feature" : {
+          "src" : "feature-nike-id-2.jpg"
+        },
+        "detail" : [
+        ]
+      }
+    },
+    {
+      "title": "CONVERSE SITE",
+      "desc": "Led a small team of Flash developers tasked with giving Converse.com a new face. Beginning where another agency left off, we first completed backend integration work which included a smart product filtering system. The e-commerce site also sports social integration, lifestyle content, and full-screen features. In addition, I was responsible for updating and extending the Design Your Own application, a major features of the site with which users can design a pair of Cons from scratch.<br><br>A week after launching, Converse.com reported its all-time 2nd best sales day.",
+      "id": "converse",
+      "tech": "FLASH",
+      "client": "R/GA",
+      "images": {
+        "feature" : {
+          "src" : "feature-converse.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/converse0.jpg"
+          },
+          {
+            "src": "projs/converse1.jpg"
+          },
+          {
+            "src": "projs/converse2.jpg"
+          },
+          {
+            "src": "projs/converse3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "WALMART FAMILY MOMENTS MEDIA PLAYERS",
+      "desc": "Simple, smart, and flexible video and audio players for the Family Moments area on Walmart.com, which experiences huge amounts of traffic by way of cross-promotions on the ABC Family channel. The video player performs bandwidth detection and is made to work in various modes and sizes while the audio player can be initialized with a playlist or in a single track mode. The video player had previously contained an integrated media library that has recently been removed for business reasons.",
+      "id": "walmart-media-players",
+      "tech": "FLASH",
+      "client": "R/GA",
+      "images": {
+        "feature" : {
+          "src" : "feature-walmart.jpg"
+        },
+        "detail" : [
+        ]
+      }
+    },
+    {
+      "title": "HIGH LINE DESIGN",
+      "desc": "Using existing printed materials as a style guide, I designed and developed this map module for the first two phases of New York's newest elevated park. The client had a general idea what they wanted but the look, feel, and technical solution was completely my responsibility.",
+      "id": "high-line",
+      "tech": "FLASH",
+      "client": "GELOFACTORY",
+      "images": {
+        "feature" : {
+          "src" : "feature-highline.jpg"
+        },
+        "detail" : [
+          {
+            "src": "projs/highline0.jpg"
+          },
+          {
+            "src": "projs/highline1.jpg"
+          },
+          {
+            "src": "projs/highline2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "title": "DOWNTOWN SYNC",
+      "desc": "For Downtown Records, this music licensing project was my highest priority for over a year while working at Gelo Factory. I was involved in each phase of the project, including strategy and feature conception, visual and interaction design, database engineering, and Flex and jQuery programming.",
+      "id": "downtown-sync",
+      "tech": "FLEX/PHP/MYSQL",
+      "client": "GELOFACTORY",
+      "images": {
+        "feature" : {
+          "src" : "feature-downtown.jpg"
+        },
+        "detail" : [
+        ]
+      }
+    }
+  ]
 
 }
